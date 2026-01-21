@@ -1,0 +1,16 @@
+{
+  "Group": "GilloDaby",
+  "Name": "Better Info",
+  "Version": "1.2.0",
+  "Description": "Centered server info UI that shows on first join or with /info.",
+  "Authors": [
+    { "Name": "GilloDaby" }
+  ],
+  "Website": "",
+  "ServerVersion": "*",
+  "Dependencies": {},
+  "OptionalDependencies": {},
+  "DisabledByDefault": false,
+  "Main": "com.gillodaby.betterinfo.BetterInfoPlugin",
+  "IncludesAssetPack": true
+}

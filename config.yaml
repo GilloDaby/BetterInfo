@@ -1,0 +1,13 @@
+# BetterInfo configuration
+title: "Server Info"
+# Should the info page open automatically on first join? (On/Off)
+firstJoinPopup: On
+# Maximum info lines rendered (capped by the HUD layout)
+maxLines: 50
+lines:
+  - "Welcome to the server!"
+  - "Need help? Run /info at any time."
+  - "Visit spawn for shops, quests and portals."
+  - "Join our Discord for live updates and support."
+  - "Claim land early to protect your builds."
+  - "Vote daily to unlock exclusive cosmetics."

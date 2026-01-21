@@ -1,0 +1,9 @@
+{
+  "id": "betterinfo",
+  "name": "Better Info",
+  "version": "1.2.0",
+  "author": "GilloDaby",
+  "description": "Book-style info UI that appears on first join or with /info.",
+  "main": "com.gillodaby.betterinfo.BetterInfoPlugin",
+  "dependencies": []
+}

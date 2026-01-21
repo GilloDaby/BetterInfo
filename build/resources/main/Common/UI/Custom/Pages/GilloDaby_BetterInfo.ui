@@ -1,0 +1,126 @@
+@LineButtonStyle = (
+  Default: (LabelStyle: (FontSize: 14, TextColor: #f0e7da), Background: (Color: #00000000)),
+  Hovered: (LabelStyle: (FontSize: 14, TextColor: #ffffff), Background: (Color: #00000000)),
+  Pressed: (LabelStyle: (FontSize: 14, TextColor: #ffffff), Background: (Color: #00000000))
+);
+
+Group #InfoRoot {
+  Anchor: (Full: 0);
+  LayoutMode: Middle;
+  Background: #00000000;
+
+  Group #Card {
+    Anchor: (Width: 820, Height: 560);
+    LayoutMode: Top;
+    Padding: (Left: 22, Right: 22, Top: 18, Bottom: 18);
+    Background: (TexturePath: "../Common/Popup.png", Border: 14);
+
+    Group #Header {
+      Anchor: (Width: 776, Height: 76);
+      LayoutMode: Top;
+      Padding: (Top: 4, Bottom: 4);
+
+      Label #InfoTitle {
+        @Text = "Server Info";
+        Anchor: (Width: 776, Height: 34);
+        Style: (FontSize: 22, RenderBold: true, TextColor: #f8efe1, HorizontalAlignment: Center, VerticalAlignment: Center);
+      }
+
+      Label #HeaderHint {
+      @Text = "All the essentials in one place.";
+        Anchor: (Width: 776, Height: 20);
+        Style: (FontSize: 13, TextColor: #d9c6b0, HorizontalAlignment: Center, VerticalAlignment: Center);
+      }
+    }
+
+    Group #ScrollArea {
+      Anchor: (Width: 776, Height: 380);
+      LayoutMode: TopScrolling;
+      Padding: (Left: 25, Right: 25, Top: 12, Bottom: 12);
+      Background: (TexturePath: "../Common/ContainerPanelPatch.png", Border: 12);
+
+      Group #Lines {
+        Anchor: (Full: 0);
+        LayoutMode: Top;
+        Padding: (Left: 85, Right: 0, Top: 0, Bottom: 0);
+
+        TextButton #Line1 { @Text = ""; Anchor: (Width: 748, Height: 20); Style: @LineButtonStyle; }
+        TextButton #Line2 { @Text = ""; Anchor: (Width: 748, Height: 20); Style: @LineButtonStyle; }
+        TextButton #Line3 { @Text = ""; Anchor: (Width: 748, Height: 20); Style: @LineButtonStyle; }
+        TextButton #Line4 { @Text = ""; Anchor: (Width: 748, Height: 20); Style: @LineButtonStyle; }
+        TextButton #Line5 { @Text = ""; Anchor: (Width: 748, Height: 20); Style: @LineButtonStyle; }
+        TextButton #Line6 { @Text = ""; Anchor: (Width: 748, Height: 20); Style: @LineButtonStyle; }
+        TextButton #Line7 { @Text = ""; Anchor: (Width: 748, Height: 20); Style: @LineButtonStyle; }
+        TextButton #Line8 { @Text = ""; Anchor: (Width: 748, Height: 20); Style: @LineButtonStyle; }
+        TextButton #Line9 { @Text = ""; Anchor: (Width: 748, Height: 20); Style: @LineButtonStyle; }
+        TextButton #Line10 { @Text = ""; Anchor: (Width: 748, Height: 20); Style: @LineButtonStyle; }
+        TextButton #Line11 { @Text = ""; Anchor: (Width: 748, Height: 20); Style: @LineButtonStyle; }
+        TextButton #Line12 { @Text = ""; Anchor: (Width: 748, Height: 20); Style: @LineButtonStyle; }
+        TextButton #Line13 { @Text = ""; Anchor: (Width: 748, Height: 20); Style: @LineButtonStyle; }
+        TextButton #Line14 { @Text = ""; Anchor: (Width: 748, Height: 20); Style: @LineButtonStyle; }
+        TextButton #Line15 { @Text = ""; Anchor: (Width: 748, Height: 20); Style: @LineButtonStyle; }
+        TextButton #Line16 { @Text = ""; Anchor: (Width: 748, Height: 20); Style: @LineButtonStyle; }
+        TextButton #Line17 { @Text = ""; Anchor: (Width: 748, Height: 20); Style: @LineButtonStyle; }
+        TextButton #Line18 { @Text = ""; Anchor: (Width: 748, Height: 20); Style: @LineButtonStyle; }
+        TextButton #Line19 { @Text = ""; Anchor: (Width: 748, Height: 20); Style: @LineButtonStyle; }
+        TextButton #Line20 { @Text = ""; Anchor: (Width: 748, Height: 20); Style: @LineButtonStyle; }
+        TextButton #Line21 { @Text = ""; Anchor: (Width: 748, Height: 20); Style: @LineButtonStyle; }
+        TextButton #Line22 { @Text = ""; Anchor: (Width: 748, Height: 20); Style: @LineButtonStyle; }
+        TextButton #Line23 { @Text = ""; Anchor: (Width: 748, Height: 20); Style: @LineButtonStyle; }
+        TextButton #Line24 { @Text = ""; Anchor: (Width: 748, Height: 20); Style: @LineButtonStyle; }
+        TextButton #Line25 { @Text = ""; Anchor: (Width: 748, Height: 20); Style: @LineButtonStyle; }
+        TextButton #Line26 { @Text = ""; Anchor: (Width: 748, Height: 20); Style: @LineButtonStyle; }
+        TextButton #Line27 { @Text = ""; Anchor: (Width: 748, Height: 20); Style: @LineButtonStyle; }
+        TextButton #Line28 { @Text = ""; Anchor: (Width: 748, Height: 20); Style: @LineButtonStyle; }
+        TextButton #Line29 { @Text = ""; Anchor: (Width: 748, Height: 20); Style: @LineButtonStyle; }
+        TextButton #Line30 { @Text = ""; Anchor: (Width: 748, Height: 20); Style: @LineButtonStyle; }
+        TextButton #Line31 { @Text = ""; Anchor: (Width: 748, Height: 20); Style: @LineButtonStyle; }
+        TextButton #Line32 { @Text = ""; Anchor: (Width: 748, Height: 20); Style: @LineButtonStyle; }
+        TextButton #Line33 { @Text = ""; Anchor: (Width: 748, Height: 20); Style: @LineButtonStyle; }
+        TextButton #Line34 { @Text = ""; Anchor: (Width: 748, Height: 20); Style: @LineButtonStyle; }
+        TextButton #Line35 { @Text = ""; Anchor: (Width: 748, Height: 20); Style: @LineButtonStyle; }
+        TextButton #Line36 { @Text = ""; Anchor: (Width: 748, Height: 20); Style: @LineButtonStyle; }
+        TextButton #Line37 { @Text = ""; Anchor: (Width: 748, Height: 20); Style: @LineButtonStyle; }
+        TextButton #Line38 { @Text = ""; Anchor: (Width: 748, Height: 20); Style: @LineButtonStyle; }
+        TextButton #Line39 { @Text = ""; Anchor: (Width: 748, Height: 20); Style: @LineButtonStyle; }
+        TextButton #Line40 { @Text = ""; Anchor: (Width: 748, Height: 20); Style: @LineButtonStyle; }
+        TextButton #Line41 { @Text = ""; Anchor: (Width: 748, Height: 20); Style: @LineButtonStyle; }
+        TextButton #Line42 { @Text = ""; Anchor: (Width: 748, Height: 20); Style: @LineButtonStyle; }
+        TextButton #Line43 { @Text = ""; Anchor: (Width: 748, Height: 20); Style: @LineButtonStyle; }
+        TextButton #Line44 { @Text = ""; Anchor: (Width: 748, Height: 20); Style: @LineButtonStyle; }
+        TextButton #Line45 { @Text = ""; Anchor: (Width: 748, Height: 20); Style: @LineButtonStyle; }
+        TextButton #Line46 { @Text = ""; Anchor: (Width: 748, Height: 20); Style: @LineButtonStyle; }
+        TextButton #Line47 { @Text = ""; Anchor: (Width: 748, Height: 20); Style: @LineButtonStyle; }
+        TextButton #Line48 { @Text = ""; Anchor: (Width: 748, Height: 20); Style: @LineButtonStyle; }
+        TextButton #Line49 { @Text = ""; Anchor: (Width: 748, Height: 20); Style: @LineButtonStyle; }
+        TextButton #Line50 { @Text = ""; Anchor: (Width: 748, Height: 20); Style: @LineButtonStyle; }
+      }
+    }
+
+    Group #Footer {
+      Anchor: (Width: 776, Height: 96);
+      LayoutMode: Top;
+      Padding: (Top: 12, Bottom: 6);
+
+      TextButton #AgreeButton {
+        Anchor: (Width: 380, Height: 44, Horizontal: 0);
+        Style: (
+          Default: (
+            LabelStyle: (RenderBold: true, TextColor: #f7f2e5, HorizontalAlignment: Center, VerticalAlignment: Center),
+            Background: (TexturePath: "../Common/ContainerPanelPatch.png", Border: 6)
+          ),
+          Hovered: (
+            LabelStyle: (RenderBold: true, TextColor: #ffffff, HorizontalAlignment: Center, VerticalAlignment: Center),
+            Background: (TexturePath: "../Common/ContainerPanelPatch.png", Border: 6)
+          )
+        );
+      }
+
+      Label #FooterHint {
+        @Text = "You can reopen this page with /info";
+        Anchor: (Width: 776, Height: 18);
+        Style: (FontSize: 12, TextColor: #d9c6b0, HorizontalAlignment: Center, VerticalAlignment: Center);
+      }
+    }
+  }
+}
