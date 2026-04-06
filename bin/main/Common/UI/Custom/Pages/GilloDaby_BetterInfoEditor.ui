@@ -1,4 +1,4 @@
-$C = "../Common.ui";
+$C = "Common/UI/Custom/Common.ui";
 
 Group #EditorRoot {
   Anchor: (Full: 0);
@@ -9,7 +9,7 @@ Group #EditorRoot {
     Anchor: (Width: 900, Height: 840);
     LayoutMode: Top;
     Padding: (Left: 22, Right: 22, Top: 18, Bottom: 18);
-    Background: (TexturePath: "../Common/Popup.png", Border: 14);
+    Background: (TexturePath: "Common/Popup.png", Border: 14);
 
     Group #ContentScroll {
       Anchor: (Width: 856, Height: 620);
@@ -746,5 +746,7 @@ Group #EditorRoot {
     }
   }
 }
+
+
 
 

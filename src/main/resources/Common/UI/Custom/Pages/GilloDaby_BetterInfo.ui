@@ -13,7 +13,7 @@ Group #InfoRoot {
     Anchor: (Width: 820, Height: 560);
     LayoutMode: Top;
     Padding: (Left: 22, Right: 22, Top: 18, Bottom: 18);
-    Background: (TexturePath: "../Common/Popup.png", Border: 14);
+    Background: (TexturePath: "Common/Popup.png", Border: 14);
 
     Group #Header {
       Anchor: (Width: 776, Height: 76);
@@ -124,3 +124,5 @@ Group #InfoRoot {
     }
   }
 }
+
+

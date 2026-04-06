@@ -3,7 +3,7 @@ plugins {
 }
 
 group = 'com.gillodaby'
-version = '1.2.0'
+version = '1.2.3'
 
 tasks.named('jar') {
     archiveBaseName.set('BetterInfo')
@@ -40,3 +40,5 @@ dependencies {
     // Use compileOnly for server API (adjust path if your HytaleServer.jar is located elsewhere)
     compileOnly files("../libs/HytaleServer.jar")
 }
+
+
