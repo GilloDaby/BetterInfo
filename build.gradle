@@ -3,7 +3,7 @@ plugins {
 }
 
 group = 'com.gillodaby'
-version = '1.2.3'
+version = '5.0.0'
 
 tasks.named('jar') {
     archiveBaseName.set('BetterInfo')

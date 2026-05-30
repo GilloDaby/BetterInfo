@@ -1,7 +1,7 @@
 {
     "Group":  "GilloDaby",
     "Name":  "Better Info",
-    "Version":  "1.2.3",
+    "Version":  "5.0.0",
     "Description":  "Centered server info UI that shows on first join or with /info.",
     "Authors":  [
                     {
